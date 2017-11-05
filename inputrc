@@ -1,0 +1,5 @@
+# to enable tab autocompletion, first install bash-completion brew
+
+set completion-ignore-case on
+set show-all-if-ambiguous on
+TAB: menu-complete
