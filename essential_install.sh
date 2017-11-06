@@ -14,9 +14,12 @@ echo "Enter your the  e-mail address you use to login to git"
 read email
 git config --global user.name "$full_name"
 git config --global user.email "$email"
+### TODO add ssh for username/password creds
+
 
 ### bash-completion
 brew install bash-completion
+cp bash_profile ~/.bash_profile
 
 ##
 ##### cpy the relevant inputrc and bash_profile codes
@@ -28,6 +31,9 @@ brew install bash-completion
 ### tmux
 brew install tmux
 cp tmux.conf ~/.tmux.conf
+### TODO get pasting functionality working
+
 
 ### VIM
-## get . behavior
+cp vimrc ~/.vimrc
+### TODO -> get pasting funcitonality working right
